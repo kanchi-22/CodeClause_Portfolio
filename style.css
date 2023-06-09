@@ -1,0 +1,186 @@
+span{
+    color: rgb(203, 102, 119);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style:none;
+}
+nav{
+    padding: 40px 20px;
+
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+#title-name{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    letter-spacing: 0cm;
+    word-spacing: 0.2cm;
+    padding-left: 40px;
+}
+#navbarText{
+    padding-right: 40px;
+}
+#navbarText ul{
+    display: flex;
+    gap:50px;
+    font-size: 20px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-desc{
+    width:40rem;
+    font-size: 25px;
+    font-style: italic;
+    padding-right: 80px;
+}
+#about-img{
+    border-radius: 50%;
+    border-color: rgb(145, 180, 235);
+    border-style: dashed;
+    padding:15px;
+    width:400px;
+    height:400px;
+}
+#skills{
+    padding-top: 200px;
+}
+h2{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+#skills h3{
+    text-align: justify;
+}
+#skills p{
+    width:80%;
+    text-align: justify;
+}
+#skillCards{
+    display: flex;
+    margin:0px 40px;
+    justify-content: center;
+    font-size: 18px;
+}
+#skillCards img{
+    width: 18rem;
+    height:10rem;
+    border-radius: 3%;
+}
+.card{
+    width: 24rem;
+}
+#gfg{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gfg p{
+    text-align: center;
+    padding-right: 60px;
+    font-size: 20px;
+    width:300px;
+    color: rgb(11, 161, 44);
+}
+#gfg img{
+    width:30vw;
+    height:28vh;
+    border-radius: 2%;
+    padding: 10px;
+    border-color:  rgb(11, 161, 44);
+    border-style:solid;
+}
+#projects{
+    padding-top: 40px;
+}
+#projectCards{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.project{
+    display: flex;
+    margin:5% auto;
+}
+.project-desc{
+    padding-left: 30px;
+}
+.project h3{
+    color: rgb(213, 70, 94);
+    font-size: 22px;
+}
+.project p{
+    width:70%;
+}
+.project img{
+    width:55vw;
+    height:60vh;
+    border-radius: 2%;
+    margin-right: 30px;
+}
+#contact{
+    padding-top: 200px;
+}
+#hire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hire p{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding:0px 200px;
+}
+#sns{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#sns a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 30px;
+}
+#hiremeBtn{
+    width:300px;
+    height:100px;
+    font-size: 24px;
+    font-weight:bolder;
+    background-color: rgb(233, 22, 99);
+    color: white;
+    border-radius: 10px;
+}
+#sns img{
+    width:50px;
+    height:50px;
+}
+footer{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+a:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}

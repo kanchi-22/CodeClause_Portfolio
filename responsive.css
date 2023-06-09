@@ -1,0 +1,75 @@
+@media (min-width:300px) and (max-width:900px){
+    /* body{
+        bac
+        kground-color: red;
+    } */
+    #navbarText{
+        display: none;
+    }
+    #title-name{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #about-desc{
+        width: auto;
+        text-align: justify;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+    #about img{
+        width:300px;
+        height:300px;
+    }
+    #skills{
+        padding-top: 80px;
+    }
+    #skillCards{
+        flex-direction: column;
+    }
+    .card{
+        margin:0 20px;
+        width:90%;
+    }
+    .skillCards img{
+        width:50rem;
+        height:30rem;
+    }
+    .card-text{
+        margin:10px 0px;
+    }
+    #gfg{
+        flex-direction: column-reverse;
+    }
+    #gfg img{
+        height:150px;
+        width:300px;
+    }
+    #gfg p{
+        padding-right: 0px;
+    }
+    .project{
+        flex-direction: column-reverse;
+        justify-items: center;
+        margin: 0;
+    }
+    .project img{
+        height:180px;
+        width:300px;
+        margin-right: 0px;
+        align-self: center;
+        margin-top: 30px;
+    }
+    .project-desc p{
+        margin: 0px 30px;
+    }
+    #hire p{
+        width: 300px;
+        padding:0px;
+    }
+    #contact{
+        padding-top: 80px;
+    }
+}
